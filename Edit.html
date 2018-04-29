@@ -9,12 +9,12 @@
 
     <title>Beispiel</title>
   </head>
-  <body>
+  <body style="background-color: lightblue">
 
-    <header role="header" class="container shadow-sm" >
+    <header role="header" class="container shadow-sm" style="background-color: lightgreen" >
       <h1 >TODO Bearbeiten</h1>
     </header>
-
+	<br>
     <main role="main" class="container shadow" >
 
 
@@ -26,30 +26,36 @@ div {
 }
     </style>
     <h1>Editieren eines TODOs</h1>
+
     <div class="jumbotron" >
-      Ein neues TODO anlegen können sie auf der Seite TODO anlegen, 
+      Ein neues TODO anlegen können sie auf der Seite <a href="Anlegen.html">TODO</a> anlegen, 
       indem Sie die nötigen Daten im ensprechenden Format eingeben 
       und anschließend "Erstellen" klicken.
       Sollten Sie ein bereits bestehendes TODO verändern wollen, 
       um beispielsweise den Fortschritt anzupassen, gehen Sie bitte 
-      auf unsere Übersichsseite und klicken dort bei dem jeweiligen 
+      auf unsere <a href="Übersichtsseite.html">Übersichsseite</a> und klicken dort bei dem jeweiligen 
       TODO auf "Bearbeiten" beziehungsweise "Löschen".
     </div>
-
+<br>
 
     </main>
 
     <hr>
     <footer role="footer" class="container" > 
-      <a href="Übersichtsseite.html">Home
+<nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl fixed-bottom text-white bg-dark">
+      <a href="Übersichtsseite.html"  class="nav-item" style="padding: 5px">Home
       </a>
       | 
 
-      <a href="Anlegen.html">Neues ToDo anlegen
+      <a href="Edit.html" class="nav-item" style="padding: 5px">Wie man ein ToDo bearbeitet
       </a>
       | 
 
-      <a href="Impressum.html">Impressum
+      <a href="Anlegen.html" class="nav-item" style="padding: 5px">Neues ToDo anlegen
+      </a>
+      | 
+
+      <a href="Impressum.html"  class="nav-item" style="padding: 5px">Impressum
       </a>
 
       </nav>
